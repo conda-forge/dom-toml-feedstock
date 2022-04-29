@@ -1,5 +1,5 @@
 {% set name = "dom-toml" %}
-{% set version = "0.5.1.post1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dom_toml-{{ version }}.tar.gz
-  sha256: 5fe4c5d8925528d509be41b878aeb8c24f2d3cc2e85c37d3d451542965138f3b
+  sha256: 6f486ad979ec44814d7c6efb38d46301e100c8ad1a7f3524eca579ce48a0a6bc
 
 build:
   noarch: python
