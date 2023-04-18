@@ -1,11 +1,11 @@
-About dom-toml
-==============
+About dom-toml-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dom-toml-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/domdfcoding/dom_toml
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dom-toml-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dom's tools for Tom's Obvious, Minimal Language.
 
