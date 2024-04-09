@@ -1,5 +1,5 @@
 {% set name = "dom-toml" %}
-{% set version = "1.0.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/dom_toml-{{ version }}.tar.gz
-  sha256: 2b8d4d1cdbca1839a4ef8582719ed9023410b7ae93094166d57a5bcbdfe2e305
+  sha256: 3c07e8436538994974127b1ae037661d1a779ac915c44fd06b3ab5fe140ff589
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
   run:
     - domdf-python-tools >=2.8.0
     - python >=3.6
-    - toml >=0.10.2
+    - tomli >=1.2.3
 
 test:
   imports:
